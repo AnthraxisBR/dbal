@@ -75,6 +75,7 @@ final class DriverManager
         'pgsql'      => 'pdo_pgsql',
         'sqlite'     => 'pdo_sqlite',
         'sqlite3'    => 'pdo_sqlite',
+        'sw_pdo_mysql'    => 'sw_pdo_mysql',
     ];
 
     /**
@@ -301,7 +302,7 @@ final class DriverManager
 
         $params = self::parseDatabaseUrlPath($url, $params);
         $params = self::parseDatabaseUrlQuery($url, $params);
-
+        var_dump($params);
         return $params;
     }
 
