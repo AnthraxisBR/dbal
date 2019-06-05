@@ -14,7 +14,9 @@ use Doctrine\DBAL\Driver\PDOSqlite\Driver as PDOSQLiteDriver;
 use Doctrine\DBAL\Driver\PDOSqlsrv\Driver as PDOSQLSrvDriver;
 use Doctrine\DBAL\Driver\SQLAnywhere\Driver as SQLAnywhereDriver;
 use Doctrine\DBAL\Driver\SQLSrv\Driver as SQLSrvDriver;
+use Doctrine\DBAL\Driver\SWPDO\Driver as SWPDODriver;
 use PDO;
+
 use function array_keys;
 use function array_map;
 use function array_merge;
@@ -55,6 +57,7 @@ final class DriverManager
         'drizzle_pdo_mysql'  => DrizzlePDOMySQLDriver::class,
         'sqlanywhere'        => SQLAnywhereDriver::class,
         'sqlsrv'             => SQLSrvDriver::class,
+        'sw_pdo_mysql'             => SWPDODriver::class
     ];
 
     /**

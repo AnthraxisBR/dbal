@@ -35,7 +35,8 @@
         "php": "^7.2",
         "ext-pdo": "*",
         "doctrine/cache": "^1.0",
-        "doctrine/event-manager": "^1.0"
+        "doctrine/event-manager": "^1.0",
+        "swlib/swpdo": "dev-master"
     },
     "require-dev": {
         "doctrine/coding-standard": "^6.0",
@@ -45,6 +46,12 @@
         "symfony/console": "^2.0.5|^3.0|^4.0|^5.0",
         "symfony/phpunit-bridge": "^3.4.5|^4.0.5|^5.0"
     },
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/swlib/swpdo"
+        }
+    ],
     "suggest": {
         "symfony/console": "For helpful console commands such as SQL execution and import of files."
     },
