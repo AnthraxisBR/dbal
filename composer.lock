@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b996eb0448dfdbb598b0dcb38c85894f",
+    "content-hash": "43f9d8183281002651d1348af99baf33",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -154,63 +154,6 @@
                 "eventmanager"
             ],
             "time": "2018-06-11T11:59:03+00:00"
-        },
-        {
-            "name": "swlib/swpdo",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/swlib/swpdo.git",
-                "reference": "17865b9615c712034dd6023cac0ccecb5e48c8ea"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/swlib/swpdo/zipball/17865b9615c712034dd6023cac0ccecb5e48c8ea",
-                "reference": "17865b9615c712034dd6023cac0ccecb5e48c8ea",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "eaglewu/swoole-ide-helper": "dev-master",
-                "phpunit/phpunit": "~7"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/SwPDO.php"
-                ],
-                "psr-4": {
-                    "Swlib\\SwPDO\\": "src"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/phpunit -c phpunit.xml"
-                ]
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "twosee",
-                    "email": "twose@qq.com"
-                }
-            ],
-            "description": "Swoole Coroutine SQL component like PDO",
-            "keywords": [
-                "mysql",
-                "pdo",
-                "php",
-                "swoole"
-            ],
-            "support": {
-                "source": "https://github.com/swlib/swpdo/tree/master",
-                "issues": "https://github.com/swlib/swpdo/issues"
-            },
-            "time": "2019-04-15T10:10:11+00:00"
         }
     ],
     "packages-dev": [
@@ -2680,6 +2623,63 @@
                 "standards"
             ],
             "time": "2019-04-10T23:49:02+00:00"
+        },
+        {
+            "name": "swlib/swpdo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swlib/swpdo.git",
+                "reference": "17865b9615c712034dd6023cac0ccecb5e48c8ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swlib/swpdo/zipball/17865b9615c712034dd6023cac0ccecb5e48c8ea",
+                "reference": "17865b9615c712034dd6023cac0ccecb5e48c8ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "eaglewu/swoole-ide-helper": "dev-master",
+                "phpunit/phpunit": "~7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/SwPDO.php"
+                ],
+                "psr-4": {
+                    "Swlib\\SwPDO\\": "src"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "./vendor/bin/phpunit -c phpunit.xml"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "twosee",
+                    "email": "twose@qq.com"
+                }
+            ],
+            "description": "Swoole Coroutine SQL component like PDO",
+            "keywords": [
+                "mysql",
+                "pdo",
+                "php",
+                "swoole"
+            ],
+            "support": {
+                "source": "https://github.com/swlib/swpdo/tree/master",
+                "issues": "https://github.com/swlib/swpdo/issues"
+            },
+            "time": "2019-04-15T10:10:11+00:00"
         },
         {
             "name": "symfony/console",
