@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/dbal-2",
+    "name": "doctrine/dbal-two",
     "type": "library",
     "description": "Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.",
     "keywords": [
@@ -64,11 +64,5 @@
     },
     "autoload-dev": {
         "psr-4": { "Doctrine\\Tests\\": "tests/Doctrine/Tests" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.10.x-dev",
-            "dev-develop": "3.0.x-dev"
-        }
     }
 }
