@@ -19,7 +19,7 @@ class Driver extends AbstractMySQLDriver
     public function connect(array $params, $username = null, $password = null, array $driverOptions = [])
     {
         try {
-            $conn = new SwPDO(
+            $conn = SwPDO::construct(
                 $this->constructPdoDsn($params),
                 $username,
                 $password,
